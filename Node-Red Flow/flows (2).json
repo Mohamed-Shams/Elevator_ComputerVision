@@ -1,0 +1,628 @@
+[
+    {
+        "id": "982d5ef74c4e415c",
+        "type": "tab",
+        "label": "Elevator HA 2",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "140e951306f81a5a",
+        "type": "group",
+        "z": "982d5ef74c4e415c",
+        "name": "Login Page",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "4964424a04e075b2",
+            "5d9f109cb5528afb",
+            "66d0a9f7fc99c3a7"
+        ],
+        "x": 288,
+        "y": 133,
+        "w": 1304,
+        "h": 594
+    },
+    {
+        "id": "4964424a04e075b2",
+        "type": "group",
+        "z": "982d5ef74c4e415c",
+        "g": "140e951306f81a5a",
+        "name": "Username - Password",
+        "style": {
+            "label": true,
+            "color": "#ff3f3f"
+        },
+        "nodes": [
+            "41f1a11374f74b8e",
+            "3c98c0502ace07b8",
+            "e69a019934045859",
+            "4099c99d8af27c42",
+            "60b2aa33b5f71a91",
+            "8bbc511eddf4187f",
+            "34368cb87b9f9419",
+            "6486ef900908faea",
+            "3eec9b4550194bde",
+            "b13ef4730362e4e6",
+            "4f82a739f6e3fc76",
+            "98615d32f41dcdd6",
+            "51ba79999ddec87a",
+            "4b6b172d36755ce4"
+        ],
+        "x": 324,
+        "y": 159,
+        "w": 1182,
+        "h": 322
+    },
+    {
+        "id": "5d9f109cb5528afb",
+        "type": "group",
+        "z": "982d5ef74c4e415c",
+        "g": "140e951306f81a5a",
+        "name": "Show/hide Group",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7948af9a897fbe43",
+            "adf6d5ae6ab8f9e3",
+            "6bc52767c6ca5bd7",
+            "bf5fd596e85030a6"
+        ],
+        "x": 314,
+        "y": 539,
+        "w": 532,
+        "h": 122
+    },
+    {
+        "id": "66d0a9f7fc99c3a7",
+        "type": "group",
+        "z": "982d5ef74c4e415c",
+        "g": "140e951306f81a5a",
+        "name": "Alarms",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "783dae9c8be1e9a5",
+            "1944a907d396d174",
+            "558dd5389011befe",
+            "be62d77beea41ac6"
+        ],
+        "x": 924,
+        "y": 519,
+        "w": 642,
+        "h": 182
+    },
+    {
+        "id": "41f1a11374f74b8e",
+        "type": "ui_text_input",
+        "z": "982d5ef74c4e415c",
+        "g": "4964424a04e075b2",
+        "name": "Username",
+        "label": "Username",
+        "tooltip": "",
+        "group": "aad47b45693bfedd",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "Username",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 630,
+        "y": 340,
+        "wires": [
+            [
+                "e69a019934045859"
+            ]
+        ]
+    },
+    {
+        "id": "3c98c0502ace07b8",
+        "type": "ui_text_input",
+        "z": "982d5ef74c4e415c",
+        "g": "4964424a04e075b2",
+        "name": "Password",
+        "label": "Password",
+        "tooltip": "",
+        "group": "aad47b45693bfedd",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "mode": "password",
+        "delay": 300,
+        "topic": "Password",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 620,
+        "y": 380,
+        "wires": [
+            [
+                "e69a019934045859"
+            ]
+        ]
+    },
+    {
+        "id": "e69a019934045859",
+        "type": "function",
+        "z": "982d5ef74c4e415c",
+        "g": "4964424a04e075b2",
+        "name": "Validate Credentials",
+        "func": "var username = flow.get(\"username\") || \"\";\nvar password = flow.get(\"password\") || \"\";\n\n\nif (msg.topic === \"Username\") {\n    username = msg.payload;\n    flow.set(\"username\", username);\n}\n\nif (msg.topic === \"Password\") {\n    password = msg.payload;\n    flow.set(\"password\", password);\n}\n\nif (msg.topic === \"Submit\" && msg.payload == true)\n    {\n    if ((username === \"admin\" && password === \"admin\") || (username === \"mo\" && password === \"123456\")) {\n\n         msg.enabled = true;\n         msg.payload = true;\n         \n    } \n    else \n    {\n        msg.enabled = false;\n        msg.payload = false;\n        msg.background = \"grey\";\n    }\n    \n    }\n    else{\n            msg.payload = null;\n    }\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 380,
+        "wires": [
+            [
+                "60b2aa33b5f71a91",
+                "8bbc511eddf4187f",
+                "6486ef900908faea",
+                "4099c99d8af27c42",
+                "b13ef4730362e4e6",
+                "51ba79999ddec87a",
+                "783dae9c8be1e9a5"
+            ]
+        ]
+    },
+    {
+        "id": "4099c99d8af27c42",
+        "type": "debug",
+        "z": "982d5ef74c4e415c",
+        "g": "4964424a04e075b2",
+        "name": "debug 37",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1200,
+        "y": 430,
+        "wires": []
+    },
+    {
+        "id": "60b2aa33b5f71a91",
+        "type": "function",
+        "z": "982d5ef74c4e415c",
+        "g": "4964424a04e075b2",
+        "name": "Username",
+        "func": "var username = flow.get(\"username\") || \"\";\n\nif (msg.payload == true) {\n    msg.payload = username;\n}\nelse msg.payload = \" \";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1190,
+        "y": 360,
+        "wires": [
+            [
+                "4b6b172d36755ce4"
+            ]
+        ]
+    },
+    {
+        "id": "8bbc511eddf4187f",
+        "type": "ui_led",
+        "z": "982d5ef74c4e415c",
+        "g": "4964424a04e075b2",
+        "order": 1,
+        "group": "e34dc0f7.34277",
+        "width": 2,
+        "height": 1,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "center",
+        "colorForValue": [
+            {
+                "color": "#ff1414",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#00ff7b",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": false,
+        "name": "",
+        "x": 1250,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "34368cb87b9f9419",
+        "type": "comment",
+        "z": "982d5ef74c4e415c",
+        "g": "4964424a04e075b2",
+        "name": "Important open this!!",
+        "info": "Add this:\n\nhttps://www.youtube.com/watch?v=Kim0hor3j0k",
+        "x": 750,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "6486ef900908faea",
+        "type": "function",
+        "z": "982d5ef74c4e415c",
+        "g": "4964424a04e075b2",
+        "name": "check",
+        "func": "\n\nif (msg.payload == true) {\n    msg.enabled = true;\n    \n} else if(msg.payload == false)   {\n    msg.enabled = false;\n    msg.background = \"grey\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 300,
+        "wires": [
+            [
+                "4f82a739f6e3fc76"
+            ]
+        ]
+    },
+    {
+        "id": "3eec9b4550194bde",
+        "type": "ui_toast",
+        "z": "982d5ef74c4e415c",
+        "g": "4964424a04e075b2",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1410,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b13ef4730362e4e6",
+        "type": "function",
+        "z": "982d5ef74c4e415c",
+        "g": "4964424a04e075b2",
+        "name": "Topic to Notif",
+        "func": "if (msg.payload === true){\n    msg.topic = \"Login successful!\";\n    msg.payload = \" \";\n    return msg;\n\n}\nelse if (msg.payload === false) \n{ \n    msg.payload = \" \";\n    msg.topic = \"Login Failed, Try Again!\";\n    return msg;\n}\n\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1150,
+        "y": 200,
+        "wires": [
+            [
+                "3eec9b4550194bde"
+            ]
+        ]
+    },
+    {
+        "id": "4f82a739f6e3fc76",
+        "type": "ui_button",
+        "z": "982d5ef74c4e415c",
+        "g": "4964424a04e075b2",
+        "name": "Logout",
+        "group": "e34dc0f7.34277",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Logout",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "num",
+        "topic": "",
+        "topicType": "str",
+        "x": 410,
+        "y": 400,
+        "wires": [
+            [
+                "41f1a11374f74b8e",
+                "3c98c0502ace07b8"
+            ]
+        ]
+    },
+    {
+        "id": "98615d32f41dcdd6",
+        "type": "ui_button",
+        "z": "982d5ef74c4e415c",
+        "g": "4964424a04e075b2",
+        "name": "Submit Button",
+        "group": "aad47b45693bfedd",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Submit",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "Submit",
+        "topicType": "str",
+        "x": 620,
+        "y": 280,
+        "wires": [
+            [
+                "e69a019934045859"
+            ]
+        ]
+    },
+    {
+        "id": "51ba79999ddec87a",
+        "type": "function",
+        "z": "982d5ef74c4e415c",
+        "g": "4964424a04e075b2",
+        "name": "Null == false",
+        "func": "\nif (msg.payload == null){\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 440,
+        "wires": [
+            [
+                "bf5fd596e85030a6"
+            ]
+        ]
+    },
+    {
+        "id": "7948af9a897fbe43",
+        "type": "ui_ui_control",
+        "z": "982d5ef74c4e415c",
+        "g": "5d9f109cb5528afb",
+        "name": "",
+        "events": "all",
+        "x": 760,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "adf6d5ae6ab8f9e3",
+        "type": "change",
+        "z": "982d5ef74c4e415c",
+        "g": "5d9f109cb5528afb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"Home_Controls\",\"Home_Monitor\",\"Home_Security\"],\"hide\":[\"Home_Login\",\"Home_Contact\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 580,
+        "wires": [
+            [
+                "7948af9a897fbe43"
+            ]
+        ]
+    },
+    {
+        "id": "6bc52767c6ca5bd7",
+        "type": "change",
+        "z": "982d5ef74c4e415c",
+        "g": "5d9f109cb5528afb",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"group\":{\"show\":[\"Home_Login\",\"Home_Contact\"],\"hide\":[\"Home_Controls\",\"Home_Monitor\",\"Home_Security\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 620,
+        "wires": [
+            [
+                "7948af9a897fbe43"
+            ]
+        ]
+    },
+    {
+        "id": "bf5fd596e85030a6",
+        "type": "switch",
+        "z": "982d5ef74c4e415c",
+        "g": "5d9f109cb5528afb",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 390,
+        "y": 600,
+        "wires": [
+            [
+                "adf6d5ae6ab8f9e3"
+            ],
+            [
+                "6bc52767c6ca5bd7"
+            ]
+        ]
+    },
+    {
+        "id": "783dae9c8be1e9a5",
+        "type": "function",
+        "z": "982d5ef74c4e415c",
+        "g": "66d0a9f7fc99c3a7",
+        "name": "if false 5 times play alarm and disable login for 5min. and send mail for this",
+        "func": "// Initialize the counter if not already defined\nvar counter = flow.get(\"counter\") || 0;\n\nif (msg.payload === false) {\n    counter = counter + 1;\n} else if (msg.payload === true) {\n    counter = 0;\n}\n\n// Store the updated counter value in flow context\nflow.set(\"counter\", counter);\n\nif (counter >= 5) {\n    msg.payload = \"HHHHHHH\";\n    msg.topic = \"Hacking\";\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1220,
+        "y": 560,
+        "wires": [
+            [
+                "1944a907d396d174",
+                "be62d77beea41ac6"
+            ]
+        ]
+    },
+    {
+        "id": "1944a907d396d174",
+        "type": "debug",
+        "z": "982d5ef74c4e415c",
+        "g": "66d0a9f7fc99c3a7",
+        "name": "debug 38",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1460,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "4b6b172d36755ce4",
+        "type": "ui_text",
+        "z": "982d5ef74c4e415c",
+        "g": "4964424a04e075b2",
+        "group": "e34dc0f7.34277",
+        "order": 6,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "<font color=#90713c><font size = 5>{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1370,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "558dd5389011befe",
+        "type": "e-mail",
+        "z": "982d5ef74c4e415c",
+        "g": "66d0a9f7fc99c3a7",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "mshams0174@gmail.com",
+        "dname": "Mail",
+        "x": 1330,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "be62d77beea41ac6",
+        "type": "function",
+        "z": "982d5ef74c4e415c",
+        "g": "66d0a9f7fc99c3a7",
+        "name": "write email",
+        "func": "\n        var now = new Date();\n        var yyyy = now.getFullYear();\n        var mmm = now.getMonth() < 9 ? \"0\" + (now.getMonth() + 1) : (now.getMonth() + 1);\n        var dd = now.getDate() < 10 ? \"0\" + now.getDate() : now.getDate();\n        var hh = (new Date(new Date().getTime() + 60 * 60 * 1000)).getHours().toString().padStart(2, \"0\");\n\n        //var hh = now.getHours() < 10 ? \"0\" + now.getHours() : now.getHours();\n        var mm = now.getMinutes() < 10 ? \"0\" + now.getMinutes() : now.getMinutes();\n        var ss = now.getSeconds() < 10 ? \"0\" + now.getSeconds() : now.getSeconds();\n        //***** */\n        var d = new Date();     // create current date object for the time string\n        var tstring = d.toString().substring(0,4) + d.toString().substring(15,21);\n\n        /** */  \n        msg.topic = \"Hacker To System\";\n        msg.payload = \"There was a hacking to your system\" + \"!\" + \"\\n\" +\"Occurred on \" + yyyy + '/' + mmm + '/' + dd + ' - ' + hh + ':' + mm + ':' + ss ;\n        return msg;\n\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 660,
+        "wires": [
+            [
+                "558dd5389011befe"
+            ]
+        ]
+    },
+    {
+        "id": "aad47b45693bfedd",
+        "type": "ui_group",
+        "name": "Login",
+        "tab": "f4a280b3.9a702",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e34dc0f7.34277",
+        "type": "ui_group",
+        "name": "Controls",
+        "tab": "f4a280b3.9a702",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f4a280b3.9a702",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    }
+]

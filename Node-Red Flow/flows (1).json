@@ -1,0 +1,2386 @@
+[
+    {
+        "id": "476b5e78.8443f",
+        "type": "tab",
+        "label": "Elevator HA",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "133d626d4f6082cc",
+        "type": "group",
+        "z": "476b5e78.8443f",
+        "name": "Outputs",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "10cbda25126c2734",
+            "eb36f62c61d85a33",
+            "8986e472e2a69e63",
+            "0d57e420dca2586d",
+            "d18fe98451ab87cb",
+            "1964d1cde9df99a4",
+            "51abdb2de6a042f8",
+            "76bfb33973b4a30d",
+            "f5316e76.83734",
+            "cb5ca3779192c080",
+            "f66ffd546fa99da0",
+            "6849fc1140fd2146"
+        ],
+        "x": 294,
+        "y": 19,
+        "w": 1192,
+        "h": 242
+    },
+    {
+        "id": "b1ef2805f0dff811",
+        "type": "group",
+        "z": "476b5e78.8443f",
+        "name": "Inputs",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0eab59c1812d299b",
+            "44289f59a8d4087d",
+            "29cc25219d24850d",
+            "d8f7bcd954e655ae",
+            "54512fdf18ee8b61",
+            "e7865a539617a0ef",
+            "122b45bb2c2fbc5c",
+            "8a244883a82dbf9c",
+            "6018b14e3d961b6d",
+            "9d11b596a0c1c34b",
+            "ed477a5f4a05b8c7",
+            "6e5c9b8b3de08bba",
+            "24b39111870b0a4b",
+            "20c8a4096aeb31ca",
+            "7ba49d8b5e5d76eb"
+        ],
+        "x": 234,
+        "y": 279,
+        "w": 1272,
+        "h": 448
+    },
+    {
+        "id": "ec61351a450b08da",
+        "type": "group",
+        "z": "476b5e78.8443f",
+        "name": "Security",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9bb5dab642d80ebd",
+            "f89d7ead7e530cb1",
+            "dd32b8fc024e2e4a",
+            "9adfdeb6a107ab02",
+            "c0b679c47353bab7",
+            "d565524fc2f8cf14",
+            "4e5382f8762648dd",
+            "7f372dd4.9ac984",
+            "892f85fd.ddf898",
+            "e4a6cdc78f90f1af",
+            "4de2bf3545180294",
+            "717344d7702f82ef",
+            "35fbbabea07e9449",
+            "dbf803b677fc315f",
+            "88c63d73b204c69b",
+            "9479d09be403cc59",
+            "7d9e5003dfd4f48c",
+            "57d008d5c18e2431",
+            "a6760b752cdd66a2"
+        ],
+        "x": 164,
+        "y": 739,
+        "w": 1502,
+        "h": 368
+    },
+    {
+        "id": "2da834f67522f52f",
+        "type": "group",
+        "z": "476b5e78.8443f",
+        "name": "App User",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "cb824ab131f3743d",
+            "0e6c7b577232607e",
+            "b222f8321c3e1877",
+            "2dc7484974d16f5f",
+            "18616b35492d21f7",
+            "65eb6610c3a8bada",
+            "7da7126a44b82b9c",
+            "cf99940ce82f48d9",
+            "68acc83f6a17d03d",
+            "01fa67acb1267538",
+            "43b57060219d3dcc",
+            "fe7f0873499181ec",
+            "33f9c794f7974ff7",
+            "86fe17c448920215"
+        ],
+        "x": 534,
+        "y": 1159,
+        "w": 942,
+        "h": 422
+    },
+    {
+        "id": "5b4fb2f3399ace2d",
+        "type": "group",
+        "z": "476b5e78.8443f",
+        "name": "Global",
+        "style": {
+            "stroke": "#001f60",
+            "label": true,
+            "fill": "#0070c0"
+        },
+        "nodes": [
+            "6262aab5a5944447",
+            "c1a3ee469eff2171",
+            "fb71e954138a7ddd",
+            "dfc89ecd07e7e89e",
+            "0aaf81581155d96e",
+            "cb6525ec16a733cd",
+            "f2534af723e4d14c",
+            "0ac20f6b1de306c8",
+            "cb7eea487e3361fd"
+        ],
+        "x": 1214,
+        "y": 1599,
+        "w": 592,
+        "h": 302
+    },
+    {
+        "id": "54512fdf18ee8b61",
+        "type": "group",
+        "z": "476b5e78.8443f",
+        "g": "b1ef2805f0dff811",
+        "name": "CV",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "cf19f74fe015ec9b",
+            "7eb6ad7a12887dd8"
+        ],
+        "x": 374,
+        "y": 519,
+        "w": 312,
+        "h": 82
+    },
+    {
+        "id": "e7865a539617a0ef",
+        "type": "group",
+        "z": "476b5e78.8443f",
+        "g": "b1ef2805f0dff811",
+        "name": "Voice to Text",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "51bc870ec4d48751",
+            "fa67a0c0aee2a048",
+            "4599304bdaf69bea"
+        ],
+        "x": 414,
+        "y": 619,
+        "w": 752,
+        "h": 82
+    },
+    {
+        "id": "9bb5dab642d80ebd",
+        "type": "group",
+        "z": "476b5e78.8443f",
+        "g": "ec61351a450b08da",
+        "name": "Emergency",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d68e7c3e2ab91a51",
+            "8f546cfef2ce3888",
+            "04e1533f7e3caa0b"
+        ],
+        "x": 494,
+        "y": 999,
+        "w": 472,
+        "h": 82
+    },
+    {
+        "id": "01fa67acb1267538",
+        "type": "group",
+        "z": "476b5e78.8443f",
+        "g": "2da834f67522f52f",
+        "name": "App Admin",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "4e1d2990fd7939a7",
+            "05c8cf638aab5cf4",
+            "15eb1b62951ab886"
+        ],
+        "x": 694,
+        "y": 1379,
+        "w": 572,
+        "h": 82
+    },
+    {
+        "id": "3839c34ecc4fd79f",
+        "type": "ui_template",
+        "z": "476b5e78.8443f",
+        "group": "087a4eacfa00c64f",
+        "name": "Tab Champstation",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n\n    /*Main background*/\n    body {\n        background: -webkit-linear-gradient(\n            55deg,\n            #967643 0%,\n            #271f12 50%,\n            #15110a 100%\n            );\n    }\n    /*Top bar*/\n    body.nr-dashboard-theme md-toolbar,\n    body.nr-dashboard-theme md-content md-card {\n        background-color: transparent !important;\n        color: #ffffff !important;\n    }\n\n\n    /*Left menu*/\n    /*Sidebar*/\n    body.nr-dashboard-theme md-sidenav {\n        background-color: transparent !important;\n    }\n    /*Hover selection*/\n    a.md-no-style, button.md-no-style {\n        border-radius: 10px !important;\n    }\n    /*Selected*/\n    .nr-menu-item-active div button {\n        border-right: 4px solid #f0f3be !important;\n    }\n    /*List*/\n    body.nr-dashboard-theme md-sidenav div.md-list-item-inner {\n        color: white !important;\n        background: linear-gradient(300deg,#967643,#271f12,#15110a,#000000);\n        background-size: 180% 180%;\n        animation: gradient-animation 18s ease infinite;\n        }\n        \n        @keyframes gradient-animation {\n        0% {\n        background-position: 0% 50%;\n        }\n        50% {\n        background-position: 100% 50%;\n        }\n        100% {\n        background-position: 0% 50%;\n        }\n        }\n        border-radius: 10px !important;\n    }\n\n\n    /*Groups*/\n    ui-card-panel {\n        background-color: rgba(5, 128, 143, 0.1) !important;\n        border-radius: 10px !important;\n    }\n    .nr-dashboard-theme ui-card-panel {\n        border: none !important;\n    }\n    /*Name groups*/\n    .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n        color: rgba(255, 255, 255, 0.5) !important;\n    }\n\n\n    /*Bouttons*/\n    .md-button {\n        border-radius: 10px !important;\n    }\n\n\n    /*Dropdown menu*/\n    .nr-dashboard-theme md-select-menu{\n        background: linear-gradient(300deg,#967643,#271f12,#15110a,#000000);\n        background-size: 180% 180%;\n        animation: gradient-animation 18s ease infinite;\n        }\n        \n        @keyframes gradient-animation {\n        0% {\n        background-position: 0% 50%;\n        }\n        50% {\n        background-position: 100% 50%;\n        }\n        100% {\n        background-position: 0% 50%;\n        }\n        }\n    }\n    .nr-dashboard-theme md-select-menu, .nr-dashboard-theme md-select-menu md-option {\n        background-color: transparent !important;\n    }\n    .nr-dashboard-theme .md-select-menu-container {\n        border-radius: 10px !important;\n        border: none !important;\n    }\n    .nr-dashboard-theme md-select-menu md-option[selected] {\n        color: white !important;\n        background: linear-gradient(300deg,#967643,#271f12,#15110a,#000000);\n        background-size: 180% 180%;\n        animation: gradient-animation 18s ease infinite;\n        }\n        \n        @keyframes gradient-animation {\n        0% {\n        background-position: 0% 50%;\n        }\n        50% {\n        background-position: 100% 50%;\n        }\n        100% {\n        background-position: 0% 50%;\n        }\n        }\n    }\n\n    /*Template*/\n    md-card>img, md-card>md-card-header img, md-card md-card-title-media img {\n        border-radius: 10px !important;\n    }\n\n    /* Color picker text BG */\n    .nr-dashboard-theme .color-picker-input-wrapper > input {\n        color: white !important;\n        background-color: transparent !important;\n    }\n\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "className": "",
+        "x": 170,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c8c3b0f540e619dd",
+        "type": "ui_template",
+        "z": "476b5e78.8443f",
+        "group": "087a4eacfa00c64f",
+        "name": "Background Champstation",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    root,\n    a,\n    button,\n    p,\n    div {\n        -webkit-user-select: none !important;\n    }\n\n\n    body.nr-dashboard-theme md-content {\n        background: linear-gradient(300deg, #967643, #271f12, #15110a, #000000);\n        background-size: 180% 180%;\n        animation: gradient-animation 18s ease infinite;\n    }\n\n    @keyframes gradient-animation {\n        0% {\n            background-position: 0% 50%;\n        }\n\n        50% {\n            background-position: 100% 50%;\n        }\n\n        100% {\n            background-position: 0% 50%;\n        }\n    }\n\n    body.nr-dashboard-theme md-toolbar,\n    body.nr-dashboard-theme md-content md-card {\n        background-color: transparent !important;\n        color: #FFFFFF;\n    }\n\n    ui-card-panel {\n        background-color: rgba(255, 255, 255, 0.1) !important;\n        border-radius: 10px !important;\n    }\n\n    #Homey_Dashboard_Navigation {\n        background-color: transparent !important;\n        border-radius: 10px !important;\n    }\n\n    .md-card.md-default-theme,\n    md-card {\n        border-radius: 10px;\n    }\n\n    .nr-dashboard-switch.ng-scope {\n        background-color: rgba(255, 255, 255, .2) !important;\n    }\n\n    .nr-dashboard-switch.ng-scope:hover {\n        background-color: rgba(255, 255, 255, .5) !important;\n    }\n\n    .nr-dashboard-theme .nr-dashboard-button .md-button {\n        background-color: rgba(255, 255, 255, .2);\n    }\n\n    .md-button {\n        border-radius: 10px;\n    }\n\n    .nr-dashboard-cardpanel layout-column {\n        background-color: rgba(255, 255, 255, 0.2) !important;\n        background-color: transparent !important;\n        border-radius: 10px !important;\n    }\n\n    .nr-dashboard-theme ui-card-panel {\n        border: none;\n    }\n\n    .nr-dashboard-template {\n        overflow-y: visible;\n    }\n\n    .nr-dashboard-theme md-content md-card {\n        background-color: transparent !important;\n    }\n\n    .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n        color: rgba(255, 255, 255, 0.5);\n    }\n</style>\n\n<script>\n    document.ontouchmove = function (e) {\n    e.preventDefault();\n}\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "className": "",
+        "x": 160,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "eb36f62c61d85a33",
+        "type": "ui_template",
+        "z": "476b5e78.8443f",
+        "g": "133d626d4f6082cc",
+        "group": "4e289f9f.33bda",
+        "name": "",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "format": "<div id=\"graphics\" ng-init=\"checkSVG()\">\n\n    <!-- SVG FILE CONTENT BELOW -->\n    <svg viewBox=\"0 0 500 500\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n        <defs></defs>\n        <image width=\"350\" height=\"615\" x=\"100.066\" y=\"-95.877\"\n            transform=\"matrix(0.511945, 0, 0, 0.650407, 99.523645, 123.750162)\"\n            xlink:href=\"data:data:image/png;base64,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\">\n        </image>\n        <linearGradient gradientUnits=\"userSpaceOnUse\" x1=\"282.35\" y1=\"117.619\" x2=\"282.35\" y2=\"171.639\" id=\"gradient-0\" gradientTransform=\"matrix(1, 0, 0, 1, -413.036011, 118.781008)\">\n        <stop offset=\"0\" style=\"stop-color: rgba(216, 216, 216, 1)\"></stop>\n        <stop offset=\"1\" style=\"stop-color: rgba(165, 165, 165, 1)\"></stop>\n      </linearGradient>\n    </defs>\n    <rect x=\"200.0\" y=\"91.4\" width=\"80.427\" height=\"40.02\" transform=\"matrix(1, 0, 0, 1, 0, 310)\" id=\"Elev@cx_move\" style=\"stroke: rgba(0, 0, 0, 0); fill: url(#gradient-0);\"></rect>\n \n    </svg>\n\n    <!-- SVG FILE CONTENT ABOVE -->\n\n    <script>\n        (function($scope) {\n            const cxMove = \"cx_move\";\n            const cxColor = \"cx_color\";\n            const cxStatus = \"cx_status\";\n            const cxHide = \"cx_hide\";\n            const maxStatusLength = 12;\n\n\n            $scope.checkSVG = function() {\n\n                if (!$scope.graphicObjects) {\n                    $scope.graphicObjects = [];\n                }\n                recursiveEach($(\"#graphics\"), $scope.graphicObjects);\n                console.log($scope.graphicObjects);\n\n                function recursiveEach(element, container) {\n                    element.children().each(function() {\n                        const $currentElement = $(this);\n                        if (this.id && this.id.indexOf('@') > 0) {\n                            container.push({\n                                id: this.id,\n                                element: $currentElement,\n                                cxMove: (this.id.indexOf(cxMove) > 0),\n                                cxColor: (this.id.indexOf(cxColor) > 0),\n                                cxStatus: (this.id.indexOf(cxStatus) > 0),\n                                cxHide: (this.id.indexOf(cxHide) > 0)\n                            });\n                        }\n                        recursiveEach($currentElement, container);\n                    });\n                }\n            };\n\n            $scope.$watch('msg', function() {\n                if (!$scope.msg) return;\n\n                if (Array.isArray($scope.msg.payload)) {\n                    for (let aReq of $scope.msg.payload) {\n                        animateObject(aReq.payload, aReq.topic);\n                    }\n                } else {\n                    animateObject($scope.msg.payload, $scope.msg.topic);\n                }\n            });\n\n            function animateObject(payload, topic) {\n\n                if (payload === undefined || payload === null ||\n                    !topic || typeof topic !== 'string' || !topic.includes('@')) return;\n\n                const id = topic.split('@')[0],\n                    cxType = topic.split('@')[1];\n\n                for (const graphicObject of $scope.graphicObjects) {\n                    if (graphicObject.id.indexOf(id) === -1 || graphicObject.id.indexOf(cxType) === -1) continue;\n\n                    if (cxType === cxColor && graphicObject.cxColor && typeof payload === 'string') {\n\n                        graphicObject.element.css({\n                            fill: payload\n                        });\n\n                    } else if (cxType === cxStatus && graphicObject.cxStatus && typeof payload === 'string') {\n                        const statusText = (payload.length > maxStatusLength) ?\n                            payload.substring(0, maxStatusLength - 3) + '...' : payload;\n\n                        graphicObject.element.text(statusText);\n\n                    } else if (cxType === cxHide && graphicObject.cxHide && typeof payload === 'boolean') {\n                        const displayAttr = (payload) ? 'none' : '';\n                        graphicObject.element.css({\n                            display: displayAttr\n                        })\n\n                    } else if (cxType === cxMove && graphicObject.cxMove) {\n                        // SVGRect {x: 51.95399475097656, y: 54.69599914550781, width: 94.41000366210938, height: 94.41000366210938}\n                        const box = graphicObject.element[0].getBBox();\n                        const matrix = getMatrix(payload, box);\n                        if (matrix) graphicObject.element.attr('transform', matrix);\n\n                    }\n                }\n            }\n\n\n            function getMatrix(config, box) {\n                if (!config || !box) return;\n\n                // translation\n                const tx = config.x || 0;\n                const ty = config.y || 0;\n                // angle in radians\n                const rads = config.deg * (Math.PI / 180) || 0;\n                // rotation centre\n                // box = { x: 51.95399475097656, y: 54.69599914550781, width: 94.41000366210938, height: 94.41000366210938 }\n                const pivot_x = (config.pivot && config.pivot[0]) ? config.pivot[0] : 0;\n                const pivot_y = (config.pivot && config.pivot[1]) ? config.pivot[1] : 0;\n                const cx = box.x + box.width * ((pivot_x) ? pivot_x : 0);\n                const cy = box.y + box.height * ((pivot_y) ? pivot_y : 0);\n                // scaling\n                const sx = 1;\n                const sy = 1;\n\n                // matrix(0.594088, -0.516432, 0.62601, 0.720144, -223.586029, 145.949615)\n                return 'matrix(' +\n                    (sx * Math.cos(rads)) + ', ' + (sy * Math.sin(rads)) + ', ' +\n                    (-sx * Math.sin(rads)) + ', ' + (sy * Math.cos(rads)) + ', ' +\n                    ((-Math.cos(rads) * cx + Math.sin(rads) * cy + cx) * sx + tx) + ', ' +\n                    ((-Math.sin(rads) * cx - Math.cos(rads) * cy + cy) * sy + ty) + ')';\n            }\n\n        })(scope);\n    </script>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1340,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8986e472e2a69e63",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "133d626d4f6082cc",
+        "name": "svg ARM",
+        "func": "\nreturn {\n    payload: {\n        x: 0,\n        y: msg.payload,\n        deg: 0,\n        pivot: [0, 0]\n    },\n    topic: \"Elev@cx_move\"\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 60,
+        "wires": [
+            [
+                "eb36f62c61d85a33"
+            ]
+        ]
+    },
+    {
+        "id": "0d57e420dca2586d",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "133d626d4f6082cc",
+        "name": "eq",
+        "func": "msg.payload  = 310 - (msg.payload  / 775) * 320;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1030,
+        "y": 60,
+        "wires": [
+            [
+                "8986e472e2a69e63"
+            ]
+        ]
+    },
+    {
+        "id": "d18fe98451ab87cb",
+        "type": "OpcUa-Client",
+        "z": "476b5e78.8443f",
+        "g": "133d626d4f6082cc",
+        "endpoint": "01d87bb7f5e34469",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": 10,
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 700,
+        "y": 120,
+        "wires": [
+            [
+                "10cbda25126c2734"
+            ]
+        ]
+    },
+    {
+        "id": "1964d1cde9df99a4",
+        "type": "inject",
+        "z": "476b5e78.8443f",
+        "g": "133d626d4f6082cc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": ".05",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 410,
+        "y": 120,
+        "wires": [
+            [
+                "51abdb2de6a042f8"
+            ]
+        ]
+    },
+    {
+        "id": "51abdb2de6a042f8",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "133d626d4f6082cc",
+        "name": "Server",
+        "func": "var msg1 = {}; //Slider\nvar msg2 = {}; //Emergency set marker\nvar msg3 = {}; //Floor\n\nmsg1.topic = \"ns=1;s=t|pulses,datatype=Int16\";\nmsg2.topic = \"ns=1;s=t|alarm,datatype=Boolean\";\nmsg3.topic = \"ns=1;s=t|Floor,datatype=Int16\";\n\nreturn [msg1,msg2,msg3];\n",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 140,
+        "wires": [
+            [
+                "d18fe98451ab87cb"
+            ],
+            [
+                "d18fe98451ab87cb"
+            ],
+            [
+                "d18fe98451ab87cb"
+            ]
+        ]
+    },
+    {
+        "id": "10cbda25126c2734",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "133d626d4f6082cc",
+        "name": "Outputs",
+        "func": "var msg1 = {}; //Slider\nvar msg2 = {}; //Emergency set marker\nvar msg3 = {}; //Floor\n\nif (msg.topic == \"ns=1;s=t|pulses\"){\n    msg1.payload = msg.payload;\n    return [msg1, null, null, null, null, null];\n\n};\nif (msg.topic == \"ns=1;s=t|alarm\") {\n    msg2.payload = msg.payload;\n    return [null, msg2, null, null, null, null];\n}\nif (msg.topic == \"ns=1;s=t|Floor\") {\n    msg3.payload = msg.payload;\n    return [null, null, msg3, null, null, null];\n}\n",
+        "outputs": 3,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 120,
+        "wires": [
+            [
+                "0d57e420dca2586d"
+            ],
+            [
+                "cb5ca3779192c080"
+            ],
+            [
+                "76bfb33973b4a30d",
+                "f66ffd546fa99da0"
+            ]
+        ]
+    },
+    {
+        "id": "d9328eaa02c7f50a",
+        "type": "ui_template",
+        "z": "476b5e78.8443f",
+        "group": "271cdfc6069bfc5a",
+        "name": "Contact",
+        "order": 1,
+        "width": 6,
+        "height": 3,
+        "format": "<!DOCTYPE html>\n<html>\n\n<head>\n  <title>Photo Preview</title>\n</head>\n\n<body>\n  <img src=\"https://b.top4top.io/p_2804kmncu1.png\" alt=\"Photo Preview\" style=\"margin-bottom: 35px;\">\n\n  <head>\n    <title>Contact With Us</title>\n    <style>\n      body {\n        text-align: center;\n      }\n\n      .button {\n        padding: 10px 20px;\n        font-size: 18px;\n        background-color: transparent;\n        color: #edc585;\n        text-decoration: none;\n        border-radius: 5px;\n        border: 2px solid #edc585;\n      }\n      md-card>img, md-card>md-card-header img, md-card md-card-title-media img {\n      box-sizing: border-box;\n      display: flex;\n              color: #edc585;\n\n      flex: 0 0 auto;\n      height: auto;\n      width: 175%;\n      }\n    </style>\n  </head>\n\n  <body>\n    <a href=\"https://www.linkedin.com/in/mashams/\" target=\"_blank\" color= \"#edc585\" class=\"button\">Contact with us</a>\n  </body>\n\n</html>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 160,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cf19f74fe015ec9b",
+        "type": "inject",
+        "z": "476b5e78.8443f",
+        "g": "54512fdf18ee8b61",
+        "name": "1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": ".1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "ns=3;i=1008,datatype:Double",
+        "payload": "",
+        "payloadType": "date",
+        "x": 470,
+        "y": 560,
+        "wires": [
+            [
+                "7eb6ad7a12887dd8"
+            ]
+        ]
+    },
+    {
+        "id": "7eb6ad7a12887dd8",
+        "type": "OpcUa-Client",
+        "z": "476b5e78.8443f",
+        "d": true,
+        "g": "54512fdf18ee8b61",
+        "endpoint": "f204a3c9ca9c3998",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": 10,
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "Prosys",
+        "x": 610,
+        "y": 560,
+        "wires": [
+            [
+                "24b39111870b0a4b"
+            ]
+        ]
+    },
+    {
+        "id": "0eab59c1812d299b",
+        "type": "ui_template",
+        "z": "476b5e78.8443f",
+        "g": "b1ef2805f0dff811",
+        "group": "e34dc0f7.34277",
+        "name": "1-6",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n  /* Style for the button container */\n  .button-container {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr); /* Two columns */\n    gap: 10px; /* Gap between buttons */\n  }\n\n  /* Style for the buttons */\n  .number-button {\n    background: linear-gradient(300deg, #967643, #271f12, #15110a, #000000); /* Gradient background */\n    color: white; /* Text color */\n    font-size: 16px; /* Reduce font size for smaller buttons */\n    padding: 10px 20px; /* Adjust padding for smaller buttons */\n    border: none;\n    cursor: pointer;\n    transition: background 0.4s ease; /* Smoother transition for background color change */\n  }\n\n  /* Additional effect when hovering */\n  .number-button:hover {\n    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); /* Add a shadow when hovering */\n  }\n\n  /* Style for the buttons when clicked */\n  .number-button:active {\n    background: linear-gradient(300deg, #000000, #15110a, #271f12, #967643); /* Change gradient on click */\n    transform: scale(0.9); /* Add a slight scale transformation when clicked */\n  }\n</style>\n\n<div class=\"button-container\">\n  <button class=\"number-button\" ng-click=\"send({payload: 0})\">0</button>\n  <button class=\"number-button\" ng-click=\"send({payload: 1})\">1</button>\n  <button class=\"number-button\" ng-click=\"send({payload: 2})\">2</button>\n  <button class=\"number-button\" ng-click=\"send({payload: 3})\">3</button>\n  <button class=\"number-button\" ng-click=\"send({payload: 4})\">4</button>\n  <button class=\"number-button\" ng-click=\"send({payload: 5})\">5</button>\n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 690,
+        "y": 440,
+        "wires": [
+            [
+                "44289f59a8d4087d"
+            ]
+        ]
+    },
+    {
+        "id": "51bc870ec4d48751",
+        "type": "ui_microphone",
+        "z": "476b5e78.8443f",
+        "g": "e7865a539617a0ef",
+        "name": "",
+        "group": "e34dc0f7.34277",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "maxLength": 5,
+        "maxRecogLength": 5,
+        "timeslice": 0,
+        "press": "click",
+        "mode": "recog",
+        "interimResults": false,
+        "x": 510,
+        "y": 660,
+        "wires": [
+            [
+                "fa67a0c0aee2a048"
+            ]
+        ]
+    },
+    {
+        "id": "fa67a0c0aee2a048",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "e7865a539617a0ef",
+        "name": "Speech to Text floor request external",
+        "func": "var msg1 = {}; \nvar msg2 = {}; \nvar msg3 = {}; \nvar msg4 = {}; \nvar msg5 = {}; \nvar msg6 = {}; \n\nmsg.topic = \" \";\n\nif(msg.payload == \"Ground floor.\" || msg.payload==\"Ground the floor.\" || msg.payload == \"0 floor.\")\n{\n    msg.payload =0;\n    return msg;\n}\nif (msg.payload == \"First floor.\" || msg.payload == \"First, the floor.\" || msg.payload == \"1st floor.\") {\n    msg.payload = 1;\n    return msg;\n}\nif (msg.payload == \"Second floor.\" || msg.payload == \"Second, the floor.\" || msg.payload == \"2nd floor.\")\n{\n    msg.payload = 2;\n    return msg;\n}\nif (msg.payload == \"Third floor.\" || msg.payload == \"Third, the floor.\" || msg.payload == \"3rd floor.\")\n{\n    msg.payload = 3;\n    return msg;\n}\nif (msg.payload == \"Fourth floor.\" || msg.payload == \"Fourth, the floor.\" || msg.payload == \"4th floor.\") {\n    msg.payload = 4;\n    return msg;\n} \nif (msg.payload == \"Fifth floor.\" || msg.payload == \"Fifth, the floor.\" || msg.payload == \"5th floor.\") {\n    msg.payload = 5;\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 660,
+        "wires": [
+            [
+                "4599304bdaf69bea",
+                "44289f59a8d4087d"
+            ]
+        ]
+    },
+    {
+        "id": "4599304bdaf69bea",
+        "type": "debug",
+        "z": "476b5e78.8443f",
+        "g": "e7865a539617a0ef",
+        "name": "Selected option",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "d68e7c3e2ab91a51",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "9bb5dab642d80ebd",
+        "name": "Emergency",
+        "func": "var var2 = global.get('var1') || 0;\nvar var4 = global.get('var3') || 0;    \nif(var4 == true)\n{\n msg.payload = \"Emergency at Floor \" + var2 + \"!!\";\n return msg;\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1040,
+        "wires": [
+            [
+                "04e1533f7e3caa0b"
+            ]
+        ]
+    },
+    {
+        "id": "8f546cfef2ce3888",
+        "type": "ui_audio",
+        "z": "476b5e78.8443f",
+        "g": "9bb5dab642d80ebd",
+        "name": "",
+        "group": "e34dc0f7.34277",
+        "voice": "Microsoft Guy Online (Natural) - English (United States)",
+        "always": true,
+        "x": 880,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "44289f59a8d4087d",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "b1ef2805f0dff811",
+        "name": "Floor Request External",
+        "func": "\n    msg.payload = msg.payload;\n    msg.topic = \"ns=1;s=t|floor_IOT,datatype=Int16\";\n    return msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 440,
+        "wires": [
+            [
+                "7ba49d8b5e5d76eb"
+            ]
+        ]
+    },
+    {
+        "id": "892f85fd.ddf898",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "ec61351a450b08da",
+        "name": "write email",
+        "func": "\nvar var2 = global.get('var1') || 0;    \nvar var4 = global.get('var3') || 0;    \n\nif(var4 == true)\n{\n        var now = new Date();\n        var yyyy = now.getFullYear();\n        var mmm = now.getMonth() < 9 ? \"0\" + (now.getMonth() + 1) : (now.getMonth() + 1);\n        var dd = now.getDate() < 10 ? \"0\" + now.getDate() : now.getDate();\n        var hh = (new Date(new Date().getTime() + 60 * 60 * 1000)).getHours().toString().padStart(2, \"0\");\n\n        //var hh = now.getHours() < 10 ? \"0\" + now.getHours() : now.getHours();\n        var mm = now.getMinutes() < 10 ? \"0\" + now.getMinutes() : now.getMinutes();\n        var ss = now.getSeconds() < 10 ? \"0\" + now.getSeconds() : now.getSeconds();\n        //***** */\n        file = msg.filename;    // create local file variable for convenient reference\n        var d = new Date();     // create current date object for the time string\n        var tstring = d.toString().substring(0,4) + d.toString().substring(15,21);\n\n        msg.attachments =\n        { filename : file.substring(file.lastIndexOf('/')+1,file.length),\n                content : msg.payload };    // content should be a file binary buffer\n        /** */  \n        msg.topic = \"Emergency HA Elevator\";\n        msg.payload = \"Emergency at Floor \" + var2 + \"!\" + \"\\n\" +\"Occurred on \" + yyyy + '/' + mmm + '/' + dd + ' - ' + hh + ':' + mm + ':' + ss ;\n        return msg;\n}\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 4,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1450,
+        "y": 820,
+        "wires": [
+            [
+                "e4a6cdc78f90f1af"
+            ]
+        ]
+    },
+    {
+        "id": "dd32b8fc024e2e4a",
+        "type": "inject",
+        "z": "476b5e78.8443f",
+        "g": "ec61351a450b08da",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "5",
+        "payloadType": "str",
+        "x": 290,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4de2bf3545180294",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "d": true,
+        "g": "ec61351a450b08da",
+        "name": "Emergency",
+        "func": "    \nvar now = new Date();\nvar yyyy = now.getFullYear();\nvar mmm = now.getMonth() < 9 ? \"0\" + (now.getMonth() + 1) : (now.getMonth() + 1);\nvar dd = now.getDate() < 10 ? \"0\" + now.getDate() : now.getDate();\nvar hh = (new Date(new Date().getTime() + 60 * 60 * 1000)).getHours().toString().padStart(2, \"0\");\n\n//var hh = now.getHours() < 10 ? \"0\" + now.getHours() : now.getHours();\nvar mm = now.getMinutes() < 10 ? \"0\" + now.getMinutes() : now.getMinutes();\nvar ss = now.getSeconds() < 10 ? \"0\" + now.getSeconds() : now.getSeconds();\n\n    msg.topic = \"Emergency HA Elevator\";\n    msg.payload = \"Emergency at Floor \" + msg.payload + \"!\" + \"\\n\" +\"Occurred on \" + yyyy + '/' + mmm + '/' + dd + ' - ' + hh + ':' + mm + ':' + ss ;\n     return msg;\n\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 780,
+        "wires": [
+            [
+                "e4a6cdc78f90f1af"
+            ]
+        ]
+    },
+    {
+        "id": "e4a6cdc78f90f1af",
+        "type": "e-mail",
+        "z": "476b5e78.8443f",
+        "g": "ec61351a450b08da",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "mshams0174@gmail.com",
+        "dname": "Mail",
+        "x": 1590,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "f89d7ead7e530cb1",
+        "type": "inject",
+        "z": "476b5e78.8443f",
+        "g": "ec61351a450b08da",
+        "name": "Emergency Set",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "ns=1;s=t|alarm_in_1",
+        "payload": "",
+        "payloadType": "date",
+        "x": 300,
+        "y": 960,
+        "wires": [
+            [
+                "9adfdeb6a107ab02",
+                "d68e7c3e2ab91a51"
+            ]
+        ]
+    },
+    {
+        "id": "d565524fc2f8cf14",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "ec61351a450b08da",
+        "name": "eq",
+        "func": "\nvar now = new Date();\nvar yyyy = now.getFullYear();\nvar mmm = now.getMonth() < 9 ? \"0\" + (now.getMonth() + 1) : (now.getMonth() + 1);\nvar dd = now.getDate() < 10 ? \"0\" + now.getDate() : now.getDate();\nvar hh = (new Date(new Date().getTime() + 60 * 60 * 1000)).getHours().toString().padStart(2, \"0\");\nvar mm = now.getMinutes() < 10 ? \"0\" + now.getMinutes() : now.getMinutes();\nvar ss = now.getSeconds() < 10 ? \"0\" + now.getSeconds() : now.getSeconds();\n\nmsg.fname = \"HA Elevator - \" + yyyy + '-' + mmm + '-' + dd + ' - ' + hh + '-' + mm + '-' + ss + \" .png\";\n\nmsg.filename = \"D:/HA/ADV/Projects/Projects/Elevator/IIOT/SecurityCamera/\" + msg.fname;\nmsg.payload=msg.payload;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 880,
+        "wires": [
+            [
+                "dbf803b677fc315f",
+                "9479d09be403cc59",
+                "4e5382f8762648dd"
+            ]
+        ]
+    },
+    {
+        "id": "4e5382f8762648dd",
+        "type": "jimp-image",
+        "z": "476b5e78.8443f",
+        "g": "ec61351a450b08da",
+        "name": "Save To PC",
+        "data": "payload",
+        "dataType": "msg",
+        "ret": "img",
+        "parameter1": "filename",
+        "parameter1Type": "msg",
+        "parameter2": "",
+        "parameter2Type": "msg",
+        "parameter3": "",
+        "parameter3Type": "msg",
+        "parameter4": "",
+        "parameter4Type": "msg",
+        "parameter5": "",
+        "parameter5Type": "msg",
+        "parameter6": "",
+        "parameter6Type": "msg",
+        "parameter7": "",
+        "parameter7Type": "msg",
+        "parameter8": "",
+        "parameter8Type": "msg",
+        "sendProperty": "payload",
+        "sendPropertyType": "msg",
+        "parameterCount": 1,
+        "jimpFunction": "write",
+        "selectedJimpFunction": {
+            "name": "write",
+            "fn": "write",
+            "description": "Write to file. NOTE: You can specify an alternative file extension type to change the type. Currently support types are jpg, png, bmp.",
+            "parameters": [
+                {
+                    "name": "filename",
+                    "type": "str",
+                    "required": true,
+                    "hint": "Name of the file",
+                    "defaultType": "str"
+                }
+            ]
+        },
+        "x": 1470,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7f372dd4.9ac984",
+        "type": "file in",
+        "z": "476b5e78.8443f",
+        "g": "ec61351a450b08da",
+        "name": "get file",
+        "filename": "filename",
+        "filenameType": "msg",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 1190,
+        "y": 820,
+        "wires": [
+            [
+                "57d008d5c18e2431"
+            ]
+        ]
+    },
+    {
+        "id": "c0b679c47353bab7",
+        "type": "ui_webcam",
+        "z": "476b5e78.8443f",
+        "g": "ec61351a450b08da",
+        "name": "",
+        "group": "987cc01748f30f3c",
+        "order": 1,
+        "width": "13",
+        "height": 6,
+        "countdown": false,
+        "autoStart": true,
+        "hideCaptureButton": false,
+        "showImage": "2",
+        "mirror": false,
+        "format": "png",
+        "x": 700,
+        "y": 880,
+        "wires": [
+            [
+                "88c63d73b204c69b"
+            ]
+        ]
+    },
+    {
+        "id": "9adfdeb6a107ab02",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "ec61351a450b08da",
+        "name": "capture",
+        "func": "var var4 = global.get('var3') || 0;    \nif(var4 == true)\n{\nmsg.capture = true;\nreturn msg;\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 880,
+        "wires": [
+            [
+                "c0b679c47353bab7"
+            ]
+        ]
+    },
+    {
+        "id": "29cc25219d24850d",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "b1ef2805f0dff811",
+        "name": "Reset Emergency",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"ns=1;s=t|alarm_reset_in,datatype=Boolean\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1010,
+        "y": 480,
+        "wires": [
+            [
+                "7ba49d8b5e5d76eb"
+            ]
+        ]
+    },
+    {
+        "id": "d8f7bcd954e655ae",
+        "type": "ui_template",
+        "z": "476b5e78.8443f",
+        "g": "b1ef2805f0dff811",
+        "group": "987cc01748f30f3c",
+        "name": "Reset",
+        "order": 3,
+        "width": 8,
+        "height": 1,
+        "format": "<style>\n  /* Style for the button container */\n  .button-container {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr); /* Two columns */\n    gap: 10px; /* Gap between buttons */\n  }\n\n  /* Style for the buttons */\n  .number-button {\n    background: linear-gradient(300deg, #967643, #271f12, #15110a, #000000); /* Gradient background */\n    color: white; /* Text color */\n    font-size: 16px; /* Reduce font size for smaller buttons */\n    padding: 10px 20px; /* Adjust padding for smaller buttons */\n    border: none;\n    cursor: pointer;\n    transition: background 0.4s ease; /* Smoother transition for background color change */\n  }\n\n  /* Additional effect when hovering */\n  .number-button:hover {\n    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); /* Add a shadow when hovering */\n  }\n\n  /* Style for the buttons when clicked */\n  .number-button:active {\n    background: linear-gradient(300deg, #000000, #15110a, #271f12, #967643); /* Change gradient on click */\n    transform: scale(0.9); /* Add a slight scale transformation when clicked */\n  }\n</style>\n\n<div class=\"button-container\">\n  <button class=\"number-button\" ng-click=\"send({payload: true})\">Reset Emergency</button>\n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 730,
+        "y": 480,
+        "wires": [
+            [
+                "29cc25219d24850d"
+            ]
+        ]
+    },
+    {
+        "id": "76bfb33973b4a30d",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "133d626d4f6082cc",
+        "name": "Map Data",
+        "func": "msg.payload = {\n    \"lat\": 30.0689078,\n    \"lon\": 31.2839981,\n    \"name\": \"HA Elevator, El-Abaseya\",\n    \"icon\": \"Pin\",\n    \"Floor\": msg.payload\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 180,
+        "wires": [
+            [
+                "f5316e76.83734"
+            ]
+        ]
+    },
+    {
+        "id": "f5316e76.83734",
+        "type": "worldmap",
+        "z": "476b5e78.8443f",
+        "g": "133d626d4f6082cc",
+        "name": "",
+        "lat": "30.5557215",
+        "lon": "31.0189118",
+        "zoom": "10",
+        "layer": "Custom",
+        "cluster": "",
+        "maxage": "10",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "true",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "none",
+        "allowFileDrop": "true",
+        "path": "/worldmap",
+        "overlist": "DR,CO",
+        "maplist": "OSMC",
+        "mapname": "Map",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": true,
+        "x": 1240,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "717344d7702f82ef",
+        "type": "mqtt out",
+        "z": "476b5e78.8443f",
+        "g": "ec61351a450b08da",
+        "name": "Camera",
+        "topic": "HA/Elevator/SecurityCamera",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d0d3e1c297a9d4de",
+        "x": 1580,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "cb824ab131f3743d",
+        "type": "mqtt in",
+        "z": "476b5e78.8443f",
+        "g": "2da834f67522f52f",
+        "name": "Emergency Reset",
+        "topic": "HA/Elevator/EmergencyReset",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d0d3e1c297a9d4de",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 810,
+        "y": 1200,
+        "wires": [
+            [
+                "65eb6610c3a8bada"
+            ]
+        ]
+    },
+    {
+        "id": "0e6c7b577232607e",
+        "type": "mqtt in",
+        "z": "476b5e78.8443f",
+        "g": "2da834f67522f52f",
+        "name": "Emergency On",
+        "topic": "HA/Elevator/EmergencyOn",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d0d3e1c297a9d4de",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 800,
+        "y": 1260,
+        "wires": [
+            [
+                "7da7126a44b82b9c"
+            ]
+        ]
+    },
+    {
+        "id": "b222f8321c3e1877",
+        "type": "mqtt out",
+        "z": "476b5e78.8443f",
+        "g": "2da834f67522f52f",
+        "name": "Emergency Status",
+        "topic": "HA/Elevator/EmergencyStatus",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d0d3e1c297a9d4de",
+        "x": 1330,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "2dc7484974d16f5f",
+        "type": "mqtt out",
+        "z": "476b5e78.8443f",
+        "g": "2da834f67522f52f",
+        "name": "Current Floor",
+        "topic": "HA/Elevator/CurrentFloor",
+        "qos": "2",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d0d3e1c297a9d4de",
+        "x": 1310,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "35fbbabea07e9449",
+        "type": "jimp-image",
+        "z": "476b5e78.8443f",
+        "g": "ec61351a450b08da",
+        "name": "",
+        "data": "payload",
+        "dataType": "msg",
+        "ret": "b64",
+        "parameter1": "1",
+        "parameter1Type": "num",
+        "parameter2": "payload",
+        "parameter2Type": "msg",
+        "parameter3": "",
+        "parameter3Type": "msg",
+        "parameter4": "",
+        "parameter4Type": "msg",
+        "parameter5": "",
+        "parameter5Type": "msg",
+        "parameter6": "",
+        "parameter6Type": "msg",
+        "parameter7": "",
+        "parameter7Type": "msg",
+        "parameter8": "",
+        "parameter8Type": "msg",
+        "sendProperty": "payload",
+        "sendPropertyType": "msg",
+        "parameterCount": 1,
+        "jimpFunction": "quality",
+        "selectedJimpFunction": {
+            "name": "quality",
+            "fn": "quality",
+            "description": "Set the quality of the image. Useful for reducing size of image before calling the write function.",
+            "parameters": [
+                {
+                    "name": "quality",
+                    "type": "num",
+                    "required": true,
+                    "hint": "Quality value 1 ~ 100"
+                }
+            ]
+        },
+        "x": 1190,
+        "y": 940,
+        "wires": [
+            [
+                "7d9e5003dfd4f48c"
+            ]
+        ]
+    },
+    {
+        "id": "dbf803b677fc315f",
+        "type": "jimp-image",
+        "z": "476b5e78.8443f",
+        "g": "ec61351a450b08da",
+        "name": "",
+        "data": "payload",
+        "dataType": "msg",
+        "ret": "b64",
+        "parameter1": ".2",
+        "parameter1Type": "num",
+        "parameter2": "600",
+        "parameter2Type": "none",
+        "parameter3": "",
+        "parameter3Type": "none",
+        "parameter4": "",
+        "parameter4Type": "msg",
+        "parameter5": "",
+        "parameter5Type": "msg",
+        "parameter6": "",
+        "parameter6Type": "msg",
+        "parameter7": "",
+        "parameter7Type": "msg",
+        "parameter8": "",
+        "parameter8Type": "msg",
+        "sendProperty": "payload",
+        "sendPropertyType": "msg",
+        "parameterCount": 2,
+        "jimpFunction": "scale",
+        "selectedJimpFunction": {
+            "name": "scale",
+            "fn": "scale",
+            "description": "scale the image by the factor f",
+            "parameters": [
+                {
+                    "name": "f",
+                    "type": "num",
+                    "required": true,
+                    "hint": "f the factor to scale the image by"
+                },
+                {
+                    "name": "mode",
+                    "type": "resizeMode",
+                    "required": false,
+                    "hint": "a scaling method (e.g. Jimp.RESIZE_BEZIER)"
+                }
+            ]
+        },
+        "x": 1070,
+        "y": 940,
+        "wires": [
+            [
+                "35fbbabea07e9449"
+            ]
+        ]
+    },
+    {
+        "id": "4e1d2990fd7939a7",
+        "type": "debug",
+        "z": "476b5e78.8443f",
+        "g": "01fa67acb1267538",
+        "name": "Selected option",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1140,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "05c8cf638aab5cf4",
+        "type": "mqtt in",
+        "z": "476b5e78.8443f",
+        "g": "01fa67acb1267538",
+        "name": "Floor External",
+        "topic": "HA/Elevator/FloorExternal",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d0d3e1c297a9d4de",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 790,
+        "y": 1420,
+        "wires": [
+            [
+                "15eb1b62951ab886"
+            ]
+        ]
+    },
+    {
+        "id": "18616b35492d21f7",
+        "type": "mqtt in",
+        "z": "476b5e78.8443f",
+        "g": "2da834f67522f52f",
+        "name": "Floor Internal",
+        "topic": "HA/Elevator/FloorInternal",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "d0d3e1c297a9d4de",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 790,
+        "y": 1320,
+        "wires": [
+            [
+                "cf99940ce82f48d9"
+            ]
+        ]
+    },
+    {
+        "id": "68acc83f6a17d03d",
+        "type": "OpcUa-Client",
+        "z": "476b5e78.8443f",
+        "g": "2da834f67522f52f",
+        "endpoint": "01d87bb7f5e34469",
+        "action": "write",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": 10,
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 1160,
+        "y": 1260,
+        "wires": [
+            [
+                "4e1d2990fd7939a7"
+            ]
+        ]
+    },
+    {
+        "id": "65eb6610c3a8bada",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "2da834f67522f52f",
+        "name": "eq",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"ns=1;s=t|alarm_reset_in,datatype=Boolean\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 1200,
+        "wires": [
+            [
+                "68acc83f6a17d03d"
+            ]
+        ]
+    },
+    {
+        "id": "7da7126a44b82b9c",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "2da834f67522f52f",
+        "name": "eq",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"ns=1;s=t|alarm_in,datatype=Boolean\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 1260,
+        "wires": [
+            [
+                "68acc83f6a17d03d"
+            ]
+        ]
+    },
+    {
+        "id": "cf99940ce82f48d9",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "2da834f67522f52f",
+        "name": "eq",
+        "func": "msg.payload = msg.payload;\nmsg.topic = \"\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "43b57060219d3dcc",
+        "type": "inject",
+        "z": "476b5e78.8443f",
+        "g": "2da834f67522f52f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 650,
+        "y": 1500,
+        "wires": [
+            [
+                "fe7f0873499181ec",
+                "33f9c794f7974ff7"
+            ]
+        ]
+    },
+    {
+        "id": "88c63d73b204c69b",
+        "type": "jimp-image",
+        "z": "476b5e78.8443f",
+        "g": "ec61351a450b08da",
+        "name": "",
+        "data": "payload",
+        "dataType": "msg",
+        "ret": "img",
+        "parameter1": "1920",
+        "parameter1Type": "num",
+        "parameter2": "1080",
+        "parameter2Type": "num",
+        "parameter3": "",
+        "parameter3Type": "none",
+        "parameter4": "",
+        "parameter4Type": "msg",
+        "parameter5": "",
+        "parameter5Type": "msg",
+        "parameter6": "",
+        "parameter6Type": "msg",
+        "parameter7": "",
+        "parameter7Type": "msg",
+        "parameter8": "",
+        "parameter8Type": "msg",
+        "sendProperty": "payload",
+        "sendPropertyType": "msg",
+        "parameterCount": 3,
+        "jimpFunction": "scaleToFit",
+        "selectedJimpFunction": {
+            "name": "scaleToFit",
+            "fn": "scaleToFit",
+            "description": "scale the image to the largest size that fits inside the given width and height. One of the w or h parameters can be set to automatic (\"Jimp.AUTO\" or -1).",
+            "parameters": [
+                {
+                    "name": "w",
+                    "type": "num|auto",
+                    "required": true,
+                    "hint": "the width to resize the image to (or \"Jimp.AUTO\" or -1)"
+                },
+                {
+                    "name": "h",
+                    "type": "num|auto",
+                    "required": true,
+                    "hint": "the height to resize the image to (or \"Jimp.AUTO\" or -1)"
+                },
+                {
+                    "name": "mode",
+                    "type": "resizeMode",
+                    "required": false,
+                    "hint": "a scaling method (e.g. Jimp.RESIZE_BEZIER)"
+                }
+            ]
+        },
+        "x": 940,
+        "y": 880,
+        "wires": [
+            [
+                "d565524fc2f8cf14"
+            ]
+        ]
+    },
+    {
+        "id": "9479d09be403cc59",
+        "type": "jimp-image",
+        "z": "476b5e78.8443f",
+        "g": "ec61351a450b08da",
+        "name": "",
+        "data": "payload",
+        "dataType": "msg",
+        "ret": "img",
+        "parameter1": "70",
+        "parameter1Type": "num",
+        "parameter2": "payload",
+        "parameter2Type": "msg",
+        "parameter3": "",
+        "parameter3Type": "msg",
+        "parameter4": "",
+        "parameter4Type": "msg",
+        "parameter5": "",
+        "parameter5Type": "msg",
+        "parameter6": "",
+        "parameter6Type": "msg",
+        "parameter7": "",
+        "parameter7Type": "msg",
+        "parameter8": "",
+        "parameter8Type": "msg",
+        "sendProperty": "payload",
+        "sendPropertyType": "msg",
+        "parameterCount": 1,
+        "jimpFunction": "quality",
+        "selectedJimpFunction": {
+            "name": "quality",
+            "fn": "quality",
+            "description": "Set the quality of the image. Useful for reducing size of image before calling the write function.",
+            "parameters": [
+                {
+                    "name": "quality",
+                    "type": "num",
+                    "required": true,
+                    "hint": "Quality value 1 ~ 100"
+                }
+            ]
+        },
+        "x": 1070,
+        "y": 820,
+        "wires": [
+            [
+                "7f372dd4.9ac984"
+            ]
+        ]
+    },
+    {
+        "id": "7d9e5003dfd4f48c",
+        "type": "jimp-image",
+        "z": "476b5e78.8443f",
+        "g": "ec61351a450b08da",
+        "name": "",
+        "data": "payload",
+        "dataType": "msg",
+        "ret": "b64",
+        "parameter1": "50",
+        "parameter1Type": "num",
+        "parameter2": "payload",
+        "parameter2Type": "msg",
+        "parameter3": "",
+        "parameter3Type": "msg",
+        "parameter4": "",
+        "parameter4Type": "msg",
+        "parameter5": "",
+        "parameter5Type": "msg",
+        "parameter6": "",
+        "parameter6Type": "msg",
+        "parameter7": "",
+        "parameter7Type": "msg",
+        "parameter8": "",
+        "parameter8Type": "msg",
+        "sendProperty": "payload",
+        "sendPropertyType": "msg",
+        "parameterCount": 1,
+        "jimpFunction": "quality",
+        "selectedJimpFunction": {
+            "name": "quality",
+            "fn": "quality",
+            "description": "Set the quality of the image. Useful for reducing size of image before calling the write function.",
+            "parameters": [
+                {
+                    "name": "quality",
+                    "type": "num",
+                    "required": true,
+                    "hint": "Quality value 1 ~ 100"
+                }
+            ]
+        },
+        "x": 1330,
+        "y": 940,
+        "wires": [
+            [
+                "a6760b752cdd66a2"
+            ]
+        ]
+    },
+    {
+        "id": "cb5ca3779192c080",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "133d626d4f6082cc",
+        "name": "Storing Set Emergency",
+        "func": "// Store The value of the Set memory for emergency\n//global.set('variable name',value)\nglobal.set('var3',msg.payload)\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f66ffd546fa99da0",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "133d626d4f6082cc",
+        "name": "Storing Floor",
+        "func": "//global.set('variable name',value)\nglobal.set('var1',msg.payload)\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "33f9c794f7974ff7",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "2da834f67522f52f",
+        "name": "Emergency",
+        "func": "\nvar var4 = global.get('var3') || 0;    \n\n        msg.payload = var4;\n        return msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1070,
+        "y": 1520,
+        "wires": [
+            [
+                "b222f8321c3e1877"
+            ]
+        ]
+    },
+    {
+        "id": "fe7f0873499181ec",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "2da834f67522f52f",
+        "name": "Current Floor",
+        "func": "\nvar var2 = global.get('var1') || 0;    \n\n        msg.payload = var2 ;\n        return msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1070,
+        "y": 1480,
+        "wires": [
+            [
+                "86fe17c448920215",
+                "2dc7484974d16f5f"
+            ]
+        ]
+    },
+    {
+        "id": "8a244883a82dbf9c",
+        "type": "ui_button",
+        "z": "476b5e78.8443f",
+        "g": "b1ef2805f0dff811",
+        "name": "Forward",
+        "group": "e34dc0f7.34277",
+        "order": 8,
+        "width": "3",
+        "height": 1,
+        "passthru": false,
+        "label": "<i class=\"fa fa-arrow-up\"></i>",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "ns=1;s=t|manual_up,datatype=Boolean",
+        "topicType": "str",
+        "x": 800,
+        "y": 320,
+        "wires": [
+            [
+                "122b45bb2c2fbc5c"
+            ]
+        ]
+    },
+    {
+        "id": "6018b14e3d961b6d",
+        "type": "ui_button",
+        "z": "476b5e78.8443f",
+        "g": "b1ef2805f0dff811",
+        "name": "Reverse",
+        "group": "e34dc0f7.34277",
+        "order": 9,
+        "width": "3",
+        "height": 1,
+        "passthru": false,
+        "label": "<i class=\"fa fa-arrow-down\"></i>",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "ns=1;s=t|manual_down,datatype=Boolean",
+        "topicType": "str",
+        "x": 800,
+        "y": 360,
+        "wires": [
+            [
+                "122b45bb2c2fbc5c"
+            ]
+        ]
+    },
+    {
+        "id": "122b45bb2c2fbc5c",
+        "type": "trigger",
+        "z": "476b5e78.8443f",
+        "g": "b1ef2805f0dff811",
+        "name": "",
+        "op1": "true",
+        "op2": "false",
+        "op1type": "bool",
+        "op2type": "bool",
+        "duration": "1",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 940,
+        "y": 340,
+        "wires": [
+            [
+                "7ba49d8b5e5d76eb"
+            ]
+        ]
+    },
+    {
+        "id": "ed477a5f4a05b8c7",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "b1ef2805f0dff811",
+        "name": "False + Grey",
+        "func": "\n\nvar msg1 = {};\nvar msg2 = {};\n\nif (msg.payload == true)\n{\n    msg1.enabled = false;\n    msg2.enabled = true;\n    return [msg1, msg2, null, null, null, null];\n}\nelse if (msg.payload == false)\n{\n    msg1.enabled = true;\n    msg2.enabled = false;\n    return [msg1, msg2, null, null, null, null];\n}",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 340,
+        "wires": [
+            [
+                "0eab59c1812d299b"
+            ],
+            [
+                "8a244883a82dbf9c",
+                "6018b14e3d961b6d"
+            ]
+        ]
+    },
+    {
+        "id": "6e5c9b8b3de08bba",
+        "type": "ui_switch",
+        "z": "476b5e78.8443f",
+        "g": "b1ef2805f0dff811",
+        "name": "Manual",
+        "label": "Manual",
+        "tooltip": "",
+        "group": "e34dc0f7.34277",
+        "order": 7,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "payload",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "Red",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "Green",
+        "animate": true,
+        "className": "",
+        "x": 320,
+        "y": 340,
+        "wires": [
+            [
+                "ed477a5f4a05b8c7"
+            ]
+        ]
+    },
+    {
+        "id": "86fe17c448920215",
+        "type": "ui_text",
+        "z": "476b5e78.8443f",
+        "g": "2da834f67522f52f",
+        "group": "e34dc0f7.34277",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "name": "Current Floor",
+        "label": "<font color=#90713c><font size = 5>Current Floor",
+        "format": "<font color=#90713c><font size = 5>{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1370,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "9d9e21851dd94322",
+        "type": "ui_switch",
+        "z": "476b5e78.8443f",
+        "d": true,
+        "name": "",
+        "label": "Forward",
+        "tooltip": "",
+        "group": "4e289f9f.33bda",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "ns=1;s=t|f,datatype=Boolean",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 980,
+        "y": 1780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8ff7ee020c4186ea",
+        "type": "ui_switch",
+        "z": "476b5e78.8443f",
+        "d": true,
+        "name": "",
+        "label": "Reverse",
+        "tooltip": "",
+        "group": "4e289f9f.33bda",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "ns=1;s=t|r,datatype=Boolean",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 980,
+        "y": 1820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6262aab5a5944447",
+        "type": "inject",
+        "z": "476b5e78.8443f",
+        "g": "5b4fb2f3399ace2d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "23",
+        "payloadType": "num",
+        "x": 1310,
+        "y": 1700,
+        "wires": [
+            [
+                "c1a3ee469eff2171"
+            ]
+        ]
+    },
+    {
+        "id": "c1a3ee469eff2171",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "5b4fb2f3399ace2d",
+        "name": "Storing data",
+        "func": "//global.set('variable name',value)\nglobal.set('var1',msg.payload)\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 1720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fb71e954138a7ddd",
+        "type": "inject",
+        "z": "476b5e78.8443f",
+        "g": "5b4fb2f3399ace2d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "44",
+        "payloadType": "num",
+        "x": 1310,
+        "y": 1740,
+        "wires": [
+            [
+                "c1a3ee469eff2171"
+            ]
+        ]
+    },
+    {
+        "id": "dfc89ecd07e7e89e",
+        "type": "debug",
+        "z": "476b5e78.8443f",
+        "g": "5b4fb2f3399ace2d",
+        "name": "debug 34",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1700,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "0aaf81581155d96e",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "5b4fb2f3399ace2d",
+        "name": "Retriving data",
+        "func": "//variable = global.get('variable name')\n\nvar var2 = global.get('var1') || 0;\nmsg.payload = var2;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1500,
+        "y": 1800,
+        "wires": [
+            [
+                "dfc89ecd07e7e89e"
+            ]
+        ]
+    },
+    {
+        "id": "cb6525ec16a733cd",
+        "type": "inject",
+        "z": "476b5e78.8443f",
+        "g": "5b4fb2f3399ace2d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1320,
+        "y": 1800,
+        "wires": [
+            [
+                "0aaf81581155d96e"
+            ]
+        ]
+    },
+    {
+        "id": "f2534af723e4d14c",
+        "type": "comment",
+        "z": "476b5e78.8443f",
+        "g": "5b4fb2f3399ace2d",
+        "name": "Global",
+        "info": "",
+        "x": 1310,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "0ac20f6b1de306c8",
+        "type": "inject",
+        "z": "476b5e78.8443f",
+        "g": "5b4fb2f3399ace2d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1320,
+        "y": 1860,
+        "wires": [
+            [
+                "cb7eea487e3361fd"
+            ]
+        ]
+    },
+    {
+        "id": "cb7eea487e3361fd",
+        "type": "function",
+        "z": "476b5e78.8443f",
+        "g": "5b4fb2f3399ace2d",
+        "name": "Reset",
+        "func": "global.set('var1', 0);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1470,
+        "y": 1860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9d11b596a0c1c34b",
+        "type": "debug",
+        "z": "476b5e78.8443f",
+        "g": "b1ef2805f0dff811",
+        "name": "Selected option",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "6849fc1140fd2146",
+        "type": "debug",
+        "z": "476b5e78.8443f",
+        "g": "133d626d4f6082cc",
+        "name": "debug 39",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "24b39111870b0a4b",
+        "type": "rbe",
+        "z": "476b5e78.8443f",
+        "g": "b1ef2805f0dff811",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 730,
+        "y": 560,
+        "wires": [
+            [
+                "44289f59a8d4087d"
+            ]
+        ]
+    },
+    {
+        "id": "04e1533f7e3caa0b",
+        "type": "rbe",
+        "z": "476b5e78.8443f",
+        "g": "9bb5dab642d80ebd",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 730,
+        "y": 1040,
+        "wires": [
+            [
+                "8f546cfef2ce3888"
+            ]
+        ]
+    },
+    {
+        "id": "15eb1b62951ab886",
+        "type": "link out",
+        "z": "476b5e78.8443f",
+        "g": "01fa67acb1267538",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "20c8a4096aeb31ca"
+        ],
+        "x": 945,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "20c8a4096aeb31ca",
+        "type": "link in",
+        "z": "476b5e78.8443f",
+        "g": "b1ef2805f0dff811",
+        "name": "link in 1",
+        "links": [
+            "15eb1b62951ab886"
+        ],
+        "x": 775,
+        "y": 420,
+        "wires": [
+            [
+                "44289f59a8d4087d"
+            ]
+        ]
+    },
+    {
+        "id": "57d008d5c18e2431",
+        "type": "rbe",
+        "z": "476b5e78.8443f",
+        "g": "ec61351a450b08da",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1310,
+        "y": 820,
+        "wires": [
+            [
+                "892f85fd.ddf898"
+            ]
+        ]
+    },
+    {
+        "id": "a6760b752cdd66a2",
+        "type": "rbe",
+        "z": "476b5e78.8443f",
+        "g": "ec61351a450b08da",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1450,
+        "y": 940,
+        "wires": [
+            [
+                "717344d7702f82ef"
+            ]
+        ]
+    },
+    {
+        "id": "7ba49d8b5e5d76eb",
+        "type": "OpcUa-Client",
+        "z": "476b5e78.8443f",
+        "g": "b1ef2805f0dff811",
+        "endpoint": "01d87bb7f5e34469",
+        "action": "write",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": 10,
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "localkeyfile": "",
+        "securitymode": "None",
+        "securitypolicy": "None",
+        "folderName4PKI": "",
+        "name": "",
+        "x": 1340,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "74482eb39f167feb",
+        "type": "ui_spacer",
+        "z": "476b5e78.8443f",
+        "name": "spacer",
+        "group": "987cc01748f30f3c",
+        "order": 2,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "087a4eacfa00c64f",
+        "type": "ui_group",
+        "d": true,
+        "name": "Group",
+        "tab": "aee3cff5724b4cd4",
+        "order": null,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4e289f9f.33bda",
+        "type": "ui_group",
+        "name": "Monitor",
+        "tab": "f4a280b3.9a702",
+        "order": 3,
+        "disp": false,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "01d87bb7f5e34469",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://Shams:4862",
+        "secpol": "None",
+        "secmode": "None",
+        "none": false,
+        "login": false,
+        "usercert": false,
+        "usercertificate": "",
+        "userprivatekey": ""
+    },
+    {
+        "id": "271cdfc6069bfc5a",
+        "type": "ui_group",
+        "name": "Contact",
+        "tab": "f4a280b3.9a702",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "f204a3c9ca9c3998",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://Shams:53530/OPCUA/SimulationServer",
+        "secpol": "None",
+        "secmode": "None",
+        "none": true,
+        "login": false,
+        "usercert": false,
+        "usercertificate": "",
+        "userprivatekey": ""
+    },
+    {
+        "id": "e34dc0f7.34277",
+        "type": "ui_group",
+        "name": "Controls",
+        "tab": "f4a280b3.9a702",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "987cc01748f30f3c",
+        "type": "ui_group",
+        "name": "Security",
+        "tab": "f4a280b3.9a702",
+        "order": 5,
+        "disp": true,
+        "width": "13",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "d0d3e1c297a9d4de",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "aee3cff5724b4cd4",
+        "type": "ui_tab",
+        "name": "Course",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f4a280b3.9a702",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    }
+]
