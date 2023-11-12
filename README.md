@@ -1,7 +1,7 @@
 # PLC_ElevatorProject
 Elevator Prototype (PLC) with Computer Vision and IIOT
 
-Project Video: **
+Project Video: https://youtu.be/AkDWEkCqKqo
 
 ## Prerequisite Python Packages
 
