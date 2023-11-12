@@ -1,4 +1,4 @@
-# Elevator_ComputerVision
+# PLC_ElevatorProject
 Elevator Prototype (PLC) with Computer Vision and IIOT
 
 Project Video: **
